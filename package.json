@@ -1,14 +1,34 @@
 {
-  "name": "hackathon-clicker",
-  "version": "1.0.0",
-  "description": "Nido Hack '26 starter template — edit this to build your project!",
+  "name": "getting-there",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "postinstall": "node -e \"require('fs').writeFileSync('unlocked.json', JSON.stringify({installed:true,ts:Date.now()}))\"",
-    "start": "npx --yes serve . -p 3000",
-    "dev":   "npx --yes serve . -p 3000",
-    "deploy": "echo '✅ GitHub Pages auto-deploys from the main branch. Commit and push your changes via GitHub Desktop, and your site will be live at your team URL (https://okostec.github.io/<your-team-repo>) in about 60 seconds.'"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
   "dependencies": {
-    "canvas-confetti": "^1.9.3"
+    "@anthropic-ai/sdk": "^0.88.0",
+    "@tiptap/extension-color": "^3.22.3",
+    "@tiptap/extension-text-style": "^3.22.3",
+    "@tiptap/react": "^3.22.3",
+    "@tiptap/starter-kit": "^3.22.3",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.8.0",
+    "next": "16.2.3",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

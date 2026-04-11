@@ -4,13 +4,11 @@ Fill this in before the deadline and push it to your repo.
 
 ## Team
 
-| Field     | Value |
-|-----------|-------|
-| Team name |       |
-| Member 1  |       |
-| Member 2  |       |
-| Member 3  |       |
-| Member 4  |       |
+| Team name |
+| Member 1 |
+| Member 2 |
+| Member 3 | |
+| Member 4 | |
 
 ---
 
@@ -43,3 +41,4 @@ _Who is the user? What were they struggling with before your app?_
 ---
 
 ## Anything the judges should know?
+    c
